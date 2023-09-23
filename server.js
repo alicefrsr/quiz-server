@@ -15,7 +15,7 @@ app.use('/api/v1/questions', questionsRoute);
 app.get('/api/v1', (req, res) => {
   res
     .status(200)
-    .send(
+    .json(
       'Welcome to this very basic Quiz questions API. To view questions, go to http://localhost:8000/api/v1/questions'
     );
 });
