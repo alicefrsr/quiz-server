@@ -17,4 +17,4 @@ node_modules folder with the installed modules
 #### `npm run server`
 
 Launches the quiz questions API on
-[http://localhost:8000](http://localhost:8000).
+[http://localhost:8000/questions](http://localhost:8000).
